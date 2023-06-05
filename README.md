@@ -87,4 +87,4 @@ We aim to continue improving the accuracy of our waste classification model and 
  
 ## 🏆 Credits
 
-This project utilizes a dataset from Kaggle: [Garbage Classification Dataset](https://www.kaggle.com/datasets/mostafaabla/garbage-classification)
+This project utilizes a dataset from Kaggle: [Garbage Classification Dataset](https://www.kaggle.com/datasets/mostafaabla/garbage-classification) uploaded by MOSTAFA MOHAMED.
