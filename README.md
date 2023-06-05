@@ -1,3 +1,4 @@
+# ASAH: Machine Learning
 ## About Our App: ASAH
 
 ASAH (Aplikasi Sortir Sampah) is an application to encourage people to manage their waste properly by giving them rewards if they successfully manage their waste properly, where they need to sort their waste first and then they can dispose of or give their waste to recycling agencies around them
