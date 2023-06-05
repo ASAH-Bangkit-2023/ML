@@ -28,6 +28,15 @@ The classes are:
 9. Biological
 10. Cardboard
 
+# 🌐 Overview 
+
+Here are some snapshots of the project:
+
+![Image 1](Readme_Assets/image_asset_1.jpg)
+![Image 2](Readme_Assets/image_asset_2.jpg)
+![Image 3](Readme_Assets/image_asset_3.jpg)
+![Image 4](Readme_Assets/image_asset_4.jpg)
+
 ## 📈 Model
 
 In this project, we explored two different Convolutional Neural Network architectures - VGG16 and MobileNetV2. 
