@@ -53,6 +53,9 @@ This project utilizes several Python libraries for data handling, machine learni
 | `numpy`       | Enables numerical computing with powerful numerical arrays objects, and routines to manipulate them. |
 | `tensorflow`  | An open-source platform for machine learning. |
 | `matplotlib.pyplot` | Used for creating static, animated, and interactive visualizations in Python. |
+| `PIL` (Python Imaging Library) | Adds image processing capabilities to your Python interpreter. |
+| `os` | Provides a portable way of using operating system dependent functionality. |
+| `keras.utils` | Contains various utility functions for Keras. |
 
 # 📝 Documentation
 
