@@ -1,17 +1,17 @@
-# About ASAH
+# 🌎 About ASAH
 
 ASAH is an application to encourage people to manage their waste properly by giving them rewards if they successfully manage their waste properly, where they need to sort their waste first and then they can dispose of or give their waste to recycling agencies around them
 
-# Related Project Repositories
+# 📚 Related Project Repositories
 
 Here are some of the related repositories which are part of the same project:
 
 | Repository | Link |
 | --- | --- |
-| Mobile Development | [MD Repository](https://github.com/ASAH-Bangkit-2023/MD.git) |
-| Cloud Computing | [CC Repository](https://github.com/ASAH-Bangkit-2023/CC.git) |
+| 📱 Mobile Development | [MD Repository](https://github.com/ASAH-Bangkit-2023/MD.git) |
+| ☁️ Cloud Computing | [CC Repository](https://github.com/ASAH-Bangkit-2023/CC.git) |
 
-# Machine Learning: Image Classification for Waste Sorting
+# 🤖 Machine Learning: Image Classification for Waste Sorting
 
 This project utilizes machine learning to facilitate the waste sorting process. We have developed an image classification model that accurately identifies the type of waste in a given image. The model, based on MobileNetV2, is trained to categorize waste into 10 distinct classes.
 
@@ -28,7 +28,7 @@ The classes are:
 9. Biological
 10. Cardboard
 
-# Model
+# 📈 Model
 
 In this project, we explored two different Convolutional Neural Network architectures - VGG16 and MobileNetV2. 
 
@@ -38,7 +38,7 @@ In this project, we explored two different Convolutional Neural Network architec
 
 The superior performance of MobileNetV2 can be attributed to its efficient architecture that uses depth-wise separable convolutions to reduce the model size and complexity, which is particularly important for mobile applications.
 
-# Libraries Used
+# 📚 Libraries Used
 
 This project utilizes several Python libraries for data handling, machine learning, and visualization:
 
@@ -54,7 +54,7 @@ This project utilizes several Python libraries for data handling, machine learni
 | `tensorflow`  | An open-source platform for machine learning. |
 | `matplotlib.pyplot` | Used for creating static, animated, and interactive visualizations in Python. |
 
-# Documentation
+# 📝 Documentation
 
 ## Data Acquisition
 
@@ -68,10 +68,10 @@ We used TensorFlow to train our image classification model. The MobileNetV2 arch
 
 The trained model can be used by ASAH app users to classify their waste. Users simply need to take a picture of the waste item, and the app will tell them which category it belongs to. This assists users in sorting their waste correctly, leading to more efficient recycling and waste management. 
 
-# Future Work
+# 🔮 Future Work
 
 We aim to continue improving the accuracy of our waste classification model and add more classes to cover a wider variety of waste items. We also plan to develop partnerships with recycling agencies and other relevant bodies to increase the reach and impact of our app.
-
-# Credits
+ 
+# 🏆 Credits
 
 This project utilizes a dataset from Kaggle: [Garbage Classification Dataset](https://www.kaggle.com/datasets/mostafaabla/garbage-classification)
