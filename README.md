@@ -1,4 +1,4 @@
-# Asah
+# About ASAH
 
 ASAH is an application to encourage people to manage their waste properly by giving them rewards if they successfully manage their waste properly, where they need to sort their waste first and then they can dispose of or give their waste to recycling agencies around them
 
@@ -56,5 +56,3 @@ We aim to continue improving the accuracy of our waste classification model and 
 ## Credits
 
 This project utilizes a dataset from Kaggle: [Garbage Classification Dataset](https://www.kaggle.com/datasets/mostafaabla/garbage-classification)
-
-ASAH is a step towards a cleaner, greener future. Let's manage our waste wisely and save our planet!
