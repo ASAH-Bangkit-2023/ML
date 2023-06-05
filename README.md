@@ -53,4 +53,8 @@ The trained model can be used by ASAH app users to classify their waste. Users s
 
 We aim to continue improving the accuracy of our waste classification model and add more classes to cover a wider variety of waste items. We also plan to develop partnerships with recycling agencies and other relevant bodies to increase the reach and impact of our app.
 
+## Credits
+
+This project utilizes a dataset from Kaggle: [Garbage Classification Dataset](https://www.kaggle.com/datasets/mostafaabla/garbage-classification)
+
 ASAH is a step towards a cleaner, greener future. Let's manage our waste wisely and save our planet!
