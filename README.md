@@ -19,6 +19,16 @@ The classes are:
 9. Biological
 10. Cardboard
 
+## Model
+
+In this project, we explored two different Convolutional Neural Network architectures - VGG16 and MobileNetV2. 
+
+- **VGG16**: We first implemented the VGG16 model. However, we only achieved a validation accuracy of 87.9%.
+
+- **MobileNetV2**: Switching to MobileNetV2, we were able to improve our validation accuracy significantly, achieving a score of 94%. 
+
+The superior performance of MobileNetV2 can be attributed to its efficient architecture that uses depth-wise separable convolutions to reduce the model size and complexity, which is particularly important for mobile applications.
+
 ## Libraries Used
 
 This project utilizes several Python libraries for data handling, machine learning, and visualization:
