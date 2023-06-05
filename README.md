@@ -28,7 +28,7 @@ The classes are:
 9. Biological
 10. Cardboard
 
-# 🌐 Overview 
+## 🌐 Overview 
 
 Here are some snapshots of the project:
 
