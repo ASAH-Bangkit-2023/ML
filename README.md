@@ -19,6 +19,24 @@ The classes are:
 9. Biological
 10. Cardboard
 
+## Libraries Used
+
+This project utilizes several Python libraries for data handling, machine learning, and visualization:
+
+| Library       | Purpose       |
+| ------------- |:-------------:|
+| `os`          | Provides functions for interacting with the operating system. |
+| `shutil`      | Used for high-level file operations. |
+| `zipfile`     | Allows the reading and writing of ZIP-format archives. |
+| `pathlib`     | For manipulating filesystem paths. |
+| `random`      | Generates random numbers, selects random elements from lists. |
+| `cv2`         | OpenCV for image and video processing. |
+| `numpy`       | Enables numerical computing with powerful numerical arrays objects, and routines to manipulate them. |
+| `tensorflow`  | An open-source platform for machine learning. |
+| `matplotlib.pyplot` | Used for creating static, animated, and interactive visualizations in Python. |
+
+## Documentation
+
 ### Data Acquisition
 
 The data for this project is sourced from Kaggle. The dataset comprises images representing the 10 classes of waste mentioned above. In total, there are 15,515 images in the dataset.
