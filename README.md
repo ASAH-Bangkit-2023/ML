@@ -32,10 +32,10 @@ The classes are:
 
 Here are some snapshots of the project:
 
-<img src="Readme Assets/image_asset_1.jpeg" width="500">
+<img src="Readme Assets/image_asset_1.png" width="500">
 <img src="Readme Assets/image_asset_2.jpeg" width="500">
-<img src="Readme Assets/image_asset_3.jpeg" width="500">
-<img src="Readme Assets/image_asset_4.jpeg" width="500">
+<img src="Readme Assets/image_asset_3.png" width="500">
+
 
 ## 📈 Model
 
