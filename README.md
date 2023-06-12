@@ -81,11 +81,11 @@ We used TensorFlow to train our image classification model. The MobileNetV2 arch
 
 The trained model can be used by ASAH app users to classify their waste. Users simply need to take a picture of the waste item, and the app will tell them which category it belongs to. This assists users in sorting their waste correctly, leading to more efficient recycling and waste management. 
 
-## Download the Model
+## ⬇️ Download the Model
 
 The trained model can be downloaded for your own use and further development. Click [here](https://github.com/ASAH-Bangkit-2023/ML/tree/main/Saved%20Model) to access and download the model. 
 
-## Prediction
+## 💭 Prediction
 
 In this section, we showcase the use of the trained model for predicting the type of waste in an image. First, the model is loaded from a saved file. Then, an image of waste is uploaded and preprocessed to the appropriate size for input into the model. The model predicts the class probabilities, and the most likely class is determined by finding the class with the highest probability. The image of the waste along with the model's prediction accuracy is then displayed.
 
