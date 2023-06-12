@@ -116,6 +116,7 @@ plt.axis('off')
 accuracy_percentage = classes[0][outclass] * 100 
 plt.title(f"{accuracy_percentage:.2f}%")
 plt.show()
+```
 
 ## 🏆 Credits
 
