@@ -80,11 +80,41 @@ We used TensorFlow to train our image classification model. The MobileNetV2 arch
 ### Using the Model
 
 The trained model can be used by ASAH app users to classify their waste. Users simply need to take a picture of the waste item, and the app will tell them which category it belongs to. This assists users in sorting their waste correctly, leading to more efficient recycling and waste management. 
-
-## 🔮 Future Work
-
-We aim to continue improving the accuracy of our waste classification model and add more classes to cover a wider variety of waste items. We also plan to develop partnerships with recycling agencies and other relevant bodies to increase the reach and impact of our app.
  
 ## 🏆 Credits
 
 This project utilizes a dataset from Kaggle: [Garbage Classification (12 classes)](https://www.kaggle.com/datasets/mostafaabla/garbage-classification) uploaded by MOSTAFA MOHAMED.
+
+## Prediction
+
+In this section, we showcase the use of the trained model for predicting the type of waste in an image. First, the model is loaded from a saved file. Then, an image of waste is uploaded and preprocessed to the appropriate size for input into the model. The model predicts the class probabilities, and the most likely class is determined by finding the class with the highest probability. The image of the waste along with the model's prediction accuracy is then displayed.
+
+Here's the Python code:
+
+```python
+# Load the model from the saved file
+load_model = tf.keras.models.load_model(path)
+
+# Get the filename of the uploaded image
+fn = list(uploaded.keys())[0]
+path = fn
+
+# Load and preprocess the image
+img = image.load_img(path, target_size=IMG_SIZE + (3,))
+x = image.img_to_array(img)
+x = np.expand_dims(x, axis=0)
+
+# Make a prediction using the model
+images = np.vstack([x])
+classes = load_model.predict(images, batch_size=10)
+outclass = np.argmax(classes)
+
+# Display the image and prediction accuracy
+plt.imshow(img)
+plt.axis('off')
+
+accuracy_percentage = classes[0][outclass] * 100 
+plt.title(f"{accuracy_percentage:.2f}%")
+plt.show()```
+
+
