@@ -71,7 +71,7 @@ This project utilizes several Python libraries for data handling, machine learni
 
 ### Data Acquisition
 
-The data for this project is sourced from Kaggle. The dataset comprises images representing the 10 classes of waste mentioned above. In total, there are 15,515 images in the dataset.
+The data for this project was sourced from Kaggle. Initially, the dataset comprised of 12 classes of waste, represented through a total of 15,515 images. However, we decided to combine some categories to make a total of 10 distinct waste classes for ease of classification and practicality in waste sorting.
 
 ### Model Training
 
